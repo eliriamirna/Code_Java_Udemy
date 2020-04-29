@@ -1,28 +1,32 @@
-import javax.swing.JOptionPane;
+   public class Main{
+ public static void main(String[] args) {
+  //Programa que calcula algumas funções de matemática
+	 
+  //Declaração de variáveis
+	 double x = 3.0;
+     double y = 4.0;
+     double z = -5.0;
+     double A, B, C;
+     
+ //Entrada e Processamento de dados
+     
+A = Math.sqrt(x);
+B = Math.sqrt(y);
+C = Math.sqrt(25.0);
+System.out.println("Raiz quadrada de " + x + " = " + A);
+System.out.println("Raiz quadrada de " + y + " = " + B);
+System.out.println("Raiz quadrada de 25 = " + C);
 
-public class Main { 
+A = Math.pow(x, y);
+B = Math.pow(x, 2.0);
+C = Math.pow(5.0, 2.0);
+System.out.println(x + " elevado a " + y + " = " + A);
+System.out.println(x + " elevado ao quadrado = " + B);
+System.out.println("5 elevado ao quadrado = " + C);
 
-	public static void main(String[] args) {
-		//Calcular se um número é maior ou igual a 100
-		
-	//declarar variáveis
-		double n;
-		String aux;
-		
-	//entrada de dados
-	aux = JOptionPane.showInputDialog("Digite um número");
-	n = Double.parseDouble(aux);
-	
-	//processamento e saída
-	if (n>=100) {
-		JOptionPane.showMessageDialog(null, "Este número é maior ou igual a 100");
-	}else {
-			JOptionPane.showMessageDialog(null, "Este número não é maior u igual a 100");
-			
-		}
-	
-		
-
-	}
-
+A = Math.abs(y);
+B = Math.abs(z);
+System.out.println("Valor absoluto de " + y + " = " + A);
+System.out.println("Valor absoluto de " + z + " = " + B);
+}
 }
