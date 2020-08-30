@@ -1,9 +1,9 @@
    public class Main{
  public static void main(String[] args) {
-  //Programa que calcula algumas funÁıes de matem·tica
+  //Programa que calcula algumas fun√ß√µes de matem√°tica
 	 
-  //DeclaraÁ„o de vari·veis
-	 double x = 3.0;
+  //Declara√ß√£o de vari√°veis
+     double x = 3.0;
      double y = 4.0;
      double z = -5.0;
      double A, B, C;
